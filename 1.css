@@ -1,0 +1,194 @@
+
+.tab {
+    display: block;
+}
+
+
+
+
+
+
+
+
+table {
+    width: 100%;
+}
+tr {
+    width: 100%;
+}
+.Size {
+    width: 20%;
+}
+pre {
+    margin: 0px;
+}
+.list{
+    cursor: default;
+    display: table-row;
+}
+.inputRename{
+    float: left;
+    background-color: rgb(89, 160, 226);
+    border: none;
+    font-weight: 18px;
+    font-size: 18px;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+html{
+    height: 100vh;
+   
+}
+
+body{
+    
+    position: absolute;
+    height: 95vh;
+    width: 99%;
+    margin-bottom: 0vh;
+    
+}
+#Head{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    height: 10vh;
+    font-size: 7.5vh;
+    
+}
+/*ToolBar*/
+#ToolBar{
+    display:inline-block;
+    width: 100%;
+    background-color: rgb(194, 194, 194);
+
+}
+#Buttons{
+    width: 40%;
+    float: left;
+}
+.ButtonToolbar {
+    float: left;
+    min-width: 36px;
+    min-height: 30px;
+    width: 7.2vh;
+    height: 6vh;
+}
+img {
+    min-width: 20px;
+    min-height: 20px;
+    width: 4vh;
+    height: 4vh;
+    /* width: 20px;
+    height: 20px; */
+}
+#BackGround{
+    width: 59%;
+    float: right;
+    margin-left: 1%;
+    margin-top: 0.5em;
+}
+/* #input{
+
+} */
+#link{
+    border: 1px;
+    border-radius: 5px 5px;
+}
+#addLink{
+    border: 1px;
+    border-radius: 3px 3px;
+}
+
+/* bảng trái - Left */
+/* table{
+    border-spacing: 0em;
+} */
+#left{
+    float: left;
+    width: 40%;
+    overflow-x: auto;
+    background-color: rgb(235, 235, 235);
+    overflow-y: auto;
+    height: 75vh;
+    
+}
+#Title {
+    width: 70%;
+}
+#Icon{
+    width: 10%;
+    vertical-align: center;
+}
+h4{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+/* bảng phải - Right */
+#right{
+    float: right;
+    width: 59.8%;
+    background-color: rgb(235, 235, 235);
+    height: 75vh;
+    border-left-width: 0.05%;
+    border-left-style: solid;
+}
+#data {
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 95%;
+    margin-left: 1em;
+    margin-top: 0.5em;
+
+}
+#Hash{
+    width: 80%;
+    margin: 0;
+}
+
+/* tấm nền tàng hình*/
+/* #div{
+    width: 99vw;
+    height: 97vh;
+    z-index: 20;
+    display: flex;
+    margin: auto;
+background-color: rgba(0,0,0,0);
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+} */
+/*
+#renameTab{
+    margin-top: 35vh;
+    width: 25vw;
+    height: 30vh;
+    z-index: 30;
+    background-color: white;
+    position: absolute;
+    display: block;
+
+
+}
+
+#inputRename{
+    background-color: rgb(89, 160, 226);
+    border: none;
+    font-weight: 18px;
+    font-size: 18px;
+    display: block;
+    
+} */
+
+.hidden {
+    display: none;
+}
+.unhide {
+    display: block;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>KienIPFS</title>
+    <link rel="stylesheet" href="1.css">
+
+</head>
+
+<body>
+    <div id="div">
+    </div>
+    <div>
+        <h1 id="Head">IPFS Showroom</h1>
+    </div>
+    <div id="ToolBar">
+        <div id="Buttons">
+            <div style="float: left;">
+                <button class="ButtonToolbar" onclick="back()"><img
+                        src="https://img.icons8.com/carbon-copy/30/000000/chevron-left.png"></button>
+            </div>
+            <div style="float: right;">
+                <button class="ButtonToolbar" title="Create Folder" onclick="createFolder()"><img
+                        src="https://img.icons8.com/ios-glyphs/30/000000/add-folder.png"></button>
+                <button class="ButtonToolbar" title="Add" onclick="upload()"><img
+                        src="https://img.icons8.com/material-sharp/30/000000/upload.png"></button>
+                <button class="ButtonToolbar" title="Download" onclick="download()"><img
+                        src="https://img.icons8.com/android/30/000000/download.png"></button>
+                <button id="rename" class="ButtonToolbar" title="Rename" onclick="rename()"><img
+                        src="https://img.icons8.com/android/30/000000/rename.png"></button>
+                <button class="ButtonToolbar" title="Delete" onclick="del()"><img
+                        src="https://img.icons8.com/ios-glyphs/30/000000/delete-forever.png"></button>
+                <button id="ButtonAdd" class="ButtonToolbar" title="Add From IPFS" onclick="add()"><img
+                        src="https://raw.githubusercontent.com/ipfs/logo/master/platform-icons/ipfs.ico"></button>
+            </div>
+        </div>
+        <div id="BackGround" class="ClassBG">
+            <div id="input" class="hidden">
+                Hash:
+                <input id="link" type="text">
+                <input id="addLink" type="button" onclick="addLink()" value="Add">
+                <p id="Hash" style="display: none; " onclick="hashText(hash)"></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="left">
+        <div>
+            <table id="Table">
+                <tr>
+                    <th id="Icon"></th>
+                    <th id="Title">
+                        <h4> Title </h4>
+                    </th>
+                    <th id="Size">
+                        <h4> Size </h4>
+                    </th>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <div id="right">
+        <pre id="data">
+
+        </pre>
+
+    </div>
+    <script src="1.js"></script>
+
+    <script src="2.js"></script>
+
+</body>
+
+</html>
